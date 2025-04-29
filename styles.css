@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.user-card {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 200px;
+}
+
+.user-card:hover {
+  background-color: #f0f0f0;
+}
+
+#user-details {
+  margin-top: 20px;
+  border-top: 2px solid #333;
+  padding-top: 10px;
+}
